@@ -1,0 +1,21 @@
+.holder{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 0.5vh solid black;
+	height: 12vh;
+	width: 12vh;
+	background-color: white;
+	margin-bottom: 5vh;
+	margin-right: 2vw;
+
+	&:hover{
+		border: 0.5vh dotted black;
+	}
+}
+.box{
+	height: 10vh;
+	width: 10vh;
+	cursor:pointer;
+	background-color: black;
+}

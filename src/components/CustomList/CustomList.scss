@@ -1,0 +1,17 @@
+.list-wrapper{
+	margin:  1vw auto;
+	border-radius: 1vh;
+	width: 10vw;
+	background-color: #F1F1F1;
+	padding: 0.5vw 5vw;
+	height: 20vw;
+	overflow-y: scroll;
+}
+
+.list-wrapper li{
+	margin: 3vh 0vh;
+	list-style-type: none;
+	font-size: 3vh;
+	color: #979797;
+	cursor: pointer;
+}

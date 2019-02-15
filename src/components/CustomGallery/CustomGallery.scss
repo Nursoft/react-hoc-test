@@ -1,0 +1,35 @@
+.gallery-wrapper{
+	margin:  1vw auto;
+	border-radius: 1vh;
+	min-width: 37vw;
+	max-width: 37vw;
+	background-color: #F1F1F1;
+	height: 20vw;
+	padding: 3vh 2vw;
+	overflow-y: scroll;
+	
+	display:flex;
+	flex-direction: row;
+	flex-wrap: wrap
+}
+
+.image-container {
+	display:flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+
+	h3{
+		margin: 0.5vh 0;
+	}
+	img{
+		width: 12vw;
+		height: 12vh;
+		cursor: pointer;
+		transition: opacity 0.25s;
+		&:hover{
+			transition: opacity 0.25s;
+			opacity: 0.6;
+		}
+	}
+}
